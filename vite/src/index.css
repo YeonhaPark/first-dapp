@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button-style {
+    @apply border-4 border-green-200 rounded-full text-xl px-6 py-3 font-semibold bg-white hover:border-green-300 hover:cursor-pointer;
+  }
+
+  .box-style {
+    @apply bg-white rounded-xl text-xl font-semibold py-3 px-6;
+  }
+}
